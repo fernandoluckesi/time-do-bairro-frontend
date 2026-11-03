@@ -25,3 +25,4 @@ npm run build
 - Depoimentos, números (10k+, 25k, 98%) e "logos" de parceiros, todos fictícios
 - Links de download, redes sociais e contato no rodapé
 # time-do-bairro-web
+# time-do-bairro-web
