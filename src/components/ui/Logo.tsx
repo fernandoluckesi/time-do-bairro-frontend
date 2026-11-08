@@ -12,9 +12,9 @@ const Wrapper = styled.a<{ $light?: boolean }>`
   }
 `;
 
-export function Logo({ light = false }: { light?: boolean }) {
+export function Logo({ light = false, href = '#inicio' }: { light?: boolean; href?: string }) {
   return (
-    <Wrapper href="#inicio" $light={light} aria-label="Time do Bairro - início">
+    <Wrapper href={href} $light={light} aria-label="Time do Bairro - início">
       Time do <span>Bairro</span>
     </Wrapper>
   );

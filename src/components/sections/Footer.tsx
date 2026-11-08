@@ -135,8 +135,9 @@ export function Footer() {
           <h4>Suporte</h4>
           <ul>
             <li><a href="#">Perguntas frequentes</a></li>
-            <li><a href="#">Privacidade</a></li>
-            <li><a href="#">Termos de uso</a></li>
+            <li><a href="/privacidade#privacidade">Privacidade</a></li>
+            <li><a href="/termos">Termos de uso</a></li>
+            <li><a href="/excluir-conta">Excluir conta</a></li>
             <li><a href="#">Central de ajuda</a></li>
           </ul>
         </Column>
@@ -145,7 +146,7 @@ export function Footer() {
           <ul>
             <li><MapPin /> São Paulo, SP - Brasil</li>
             <li><Phone /> (11) 90000-0000</li>
-            <li><Mail /> contato@timedobairro.app</li>
+            <li><Mail /> suporte@timedobairro.com.br</li>
           </ul>
         </Column>
       </Grid>
